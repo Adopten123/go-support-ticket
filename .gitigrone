@@ -1,0 +1,28 @@
+# Binaries
+/bin/
+/main
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Environment variables
+.env
+
+# Docker volumes and local DB data
+/out/pgdata/
+
+# IDE and OS specific
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Go workspace
+go.work
+go.work.sum
